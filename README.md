@@ -100,26 +100,10 @@ UTF-8 text, one candidate per line. Lines starting with `#` are ignored.
 Use the built executable:
 
 ```text
-ArchiveKey.exe
+ArchiveKey2.0.exe
 ```
 
-or, after a local build:
 
-```text
-target\release\ArchiveKey.exe
-```
-
-### Build from source
-
-Requires [Rust](https://rustup.rs/) on Windows.
-
-```bat
-cargo build --release --bin ArchiveKey
-```
-
-```bat
-cargo test --release --bin ArchiveKey
-```
 
 ---
 
@@ -131,14 +115,7 @@ cargo test --release --bin ArchiveKey
 
 ---
 
-## Project layout
 
-```text
-src/          app, theme, engine, archive, GPU
-assets/       logo, banner, icon
-docs/screenshots/   README images
-tests/        locked sample ZIP archives
-```
 
 ---
 
